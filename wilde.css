@@ -4,10 +4,13 @@
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
 }
-.name{
+.name:hover{
     color: black;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px red;
+    filter: blur(0.5px);
+    border: solid magenta;
 }
 .speech{
     color: green;
